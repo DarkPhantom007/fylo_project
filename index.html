@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- --------- UNICONS ---------- -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- --------- FAVICON ---------- -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.png"
+      type="image/x-icon"
+    />
+    <script src="./app.js" defer></script>
+    <title>Fylo | A File Sharing Platform on Cloud</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+          <!-- <p class="nav-name">ACE</p>
+          <span>.</span> -->
+          <img
+            src="./images/fylo_top.png"
+            alt="ace logo"
+            width="120"
+            height="34"
+          />
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+          <ul class="nav_menu_list">
+            <li class="nav_list">
+              <a href="#home" class="nav-link active-link">Features</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#about" class="nav-link">Team</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#projects" class="nav-link">Sign In</a>
+              <div class="circle"></div>
+            </li>
+          </ul>
+        </div>
+        <!-- <div class="nav-button">
+          <a href="./images/ACAS.pdf">
+            <button class="btn">
+              Download PDF <i class="uil uil-file-alt"></i>
+            </button>
+          </a>
+        </div> -->
+        <div class="nav-menu-btn">
+          <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+      <!-- -------------- MAIN ---------------- -->
+      <main class="wrapper">
+        <!-- -------------- FEATURED BOX ---------------- -->
+        <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-name">
+              <p class="my_text" style="margin-top: 122px">
+                All your files in one <span class="typedText"></span>
+                <br />location, accessible anywhere.
+              </p>
+            </div>
+            <div class="featured-text-info">
+              <p>
+                Fylo stores your most important files in one secure location.
+                Access them wherever you need, share and collaborate with family
+                and friends.
+              </p>
+            </div>
+            <div class="featured-text-btn featured-text-btn_first">
+              <a href="#">
+                <input
+                  type="text"
+                  placeholder="Enter your email..."
+                  class="my_input"
+                />
+              </a>
+              <a href="#">
+                <button class="btn btn_">Get Started</button>
+              </a>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+              <img
+                src="./images/mike_hero.png"
+                alt="avatar"
+                width="550"
+                height="550"
+              />
+            </div>
+          </div>
+          <!-- <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+              <i class="uil uil-mouse-alt"></i>
+              <p>Scroll Down</p>
+            </a>
+          </div> -->
+        </section>
+        <!-- -------------- FEATURED BOX ---------------- -->
+        <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-name">
+              <p class="my_text">Stay productive wherever you are</p>
+            </div>
+            <div class="featured-text-info">
+              <p>
+                Never let location be an issue when accessing your files. fylo
+                has you covered for all of your file storage needs.
+              </p>
+            </div>
+            <div class="featured-text-info">
+              <p>
+                Securely share files and folders with friends, family and
+                colleagues for live collaboration. No email attachment required
+                .
+              </p>
+            </div>
+            <div class="featured-text-btn">
+              <a href="#">
+                <button class="btn_shfw">
+                  See how fylo works
+                  <i class="fa-solid fa-circle-arrow-right"></i>
+                </button>
+              </a>
+            </div>
+            <div class="testimonial">
+              <i class="fa-solid fa-quote-left" style="display: block; margin-bottom: 22px; font-size: 33px;"></i>
+              <p style="margin: 42px 0;">
+                Fylo has improved our team productivity by an order of magnitude.
+                Since making the switch our team has become a well-oiled
+                collaboration machine
+              </p>
+              <div class="icon_user">
+                <img src="./images/client.png" alt="client logo" style="border-radius: 50%;width: 57px;height: 54px;">
+                <div class="title">
+                  <h4>Kyle Burton</h4>
+                  <h6>Founder and CEO, Huddle</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+              <img
+                src="./images/mike_image.png"
+                alt="avatar"
+                width="550"
+                height="550"
+              />
+            </div>
+        </section>
+        
+      </main>
+      
+      <!-- -------------- FEATURED BOX ---------------- -->
+      <section class="featured-box footer_container_" id="home">
+        <div class="featured-text">
+          <div class="featured-name">
+            <p class="my_text my_text_2">Get early access today.</p>
+          </div>
+          <div class="featured-text-info">
+            <p class="featured-text-info_">
+              It only takes a minute to signup and our free starter tier is extremenly generous. if you have any questions, our support team would be happy to help you.
+            </p>
+          </div>
+        </div>
+        <div class="featured-image">
+        <div class="featured-text-btn featured-text-btn_">
+            <a href="#">
+              <input
+                type="text"
+                placeholder="Enter your email..."
+                class="my_input"
+              />
+            </a>
+            <a href="#">
+              <button class="btn btn_">Get Started for Free</button>
+            </a>
+          </div>
+      </section>
+        <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="footer_container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="/images/fylo_bottom.png" width="129" height="40" alt="Blogy logo">
+          </a>
+
+          <p class="footer-text">
+            <i class="fa-solid fa-phone-volume"></i> Phone: +1-543-123-4567 <br />
+            <i class="fa-solid fa-envelope"></i>  example@fylo.com
+          </p>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">About</p>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-facebook"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Jobs</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-twitter"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Press</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-pinterest"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Blog</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">Contact Us</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Terms</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Privacy</a>
+          </li>
+
+
+        </ul>
+        <ul class="footer-list footer-list_">
+
+          <li>
+            <i class="fa-brands fa-facebook-f"></i>
+          </li>
+
+          <li>
+            <i class="fa-brands fa-twitter"></i>
+          </li>
+
+          <li>
+            <i class="fa-brands fa-instagram"></i>
+          </li>
+
+
+        </ul>
+
+      </div>
+
+      <div class="section footer-bottom">
+
+        <p class="copyright">
+          &copy; Fylo 2024. Published by <a href="#" class="copyright-link hover:underline">Fylo</a>.
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+    </div>
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </body>
+</html>
